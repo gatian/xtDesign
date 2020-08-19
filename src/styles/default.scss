@@ -1,0 +1,16 @@
+@import './color/color';
+@import './font/font';
+
+// link
+$link-color: $primary-color !default;
+$link-hover-color: darken($link-color, 15%) !default;
+$link-decoration: none !default;
+$link-hover-decoration: none !default;
+$link-focus-decoration: none !default;
+$link-focus-outline: 0 !default;
+
+// body
+$body-background: #fff !default;
+
+// text
+$text-color: lighten($gray-10, 25%)

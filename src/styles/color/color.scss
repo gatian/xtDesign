@@ -1,0 +1,37 @@
+// 中性色板
+$white: #fff !default;
+$gray-1: #fafafa !default;
+$gray-2: #f5f5f5 !default;
+$gray-3: #f0f0f0 !default;
+$gray-4: #d9d9d9 !default;
+$gray-5: #bfbfbf !default;
+$gray-6: #8c8c8c !default;
+$gray-7: #595959 !default;
+$gray-8: #434343 !default;
+$gray-9: #262626 !default;
+$gray-10: #1f1f1f !default;
+$gray-11: #141414 !default;
+$black: #000 !default;
+
+// 基础色板
+$blue: #1890ff !default;
+$red: #ff7875 !default;
+$volcano: #fa541c !default;
+$orange: #fa8c16 !default;
+$gold: #faad14 !default;
+$yellow: #fadb14 !default;
+$lime: #a0d911 !default;
+$green: #52c41a !default;
+$cyan: #13c2c2 !default;
+$geekBlue: #2f54eb !default;
+$purple: #722ed1 !default;
+$magenta: #eb2f96 !default;
+
+// 系统色板
+$primary-color: $blue !default;
+$success-color: $green !default;
+$warning-color: $orange !default;
+$info-color: $cyan !default;
+$error-color: $volcano !default;
+$light-color: $gray-1 !default;
+$dark-color: $gray-11 !default;
