@@ -12,5 +12,76 @@ $link-focus-outline: 0 !default;
 // body
 $body-background: #fff !default;
 
+// height
+$height-base: 32px;
+$height-lg: 40px;
+$height-sm: 24px;
+
+// padding
+$padding-lg: 24px; // container
+$padding-md: 16px; // btn or small container
+$padding-sm: 12px;
+
 // text
-$text-color: lighten($gray-10, 25%)
+$text-color: lighten($gray-10, 25%);
+
+// border
+$border-color-base: rgb(216, 216, 216);
+$border-width-base: 1px;
+$border-style-base: solid;
+$border-radius-base: 2px;
+
+// Animations
+$ease-base-out: cubic-bezier(0.7, 0.3, 0.1, 1);
+$ease-base-in: cubic-bezier(0.9, 0, 0.3, 0.7);
+$ease-out: cubic-bezier(0.215, 0.61, 0.355, 1);
+$ease-in: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+$ease-in-out: cubic-bezier(0.645, 0.045, 0.355, 1);
+$ease-out-back: cubic-bezier(0.12, 0.4, 0.29, 1.46);
+$ease-in-back: cubic-bezier(0.71, -0.46, 0.88, 0.6);
+$ease-in-out-back: cubic-bezier(0.71, -0.46, 0.29, 1.46);
+$ease-out-circ: cubic-bezier(0.08, 0.82, 0.17, 1);
+$ease-in-circ: cubic-bezier(0.6, 0.04, 0.98, 0.34);
+$ease-in-out-circ: cubic-bezier(0.78, 0.14, 0.15, 0.86);
+$ease-out-quint: cubic-bezier(0.23, 1, 0.32, 1);
+$ease-in-quint: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+$ease-in-out-quint: cubic-bezier(0.86, 0, 0.07, 1);
+
+// Button
+// === Button height ===
+$btn-height-lg: $height-lg;
+$btn-height-md: $height-base;
+$btn-height-sm: $height-sm;
+
+// === Button padding ===
+$btn-padding-lg: $padding-md + 2px;
+$btn-padding-md: $padding-md;
+$btn-padding-sm: $padding-sm;
+
+// === Button line-height ===
+$btn-line-height: $line-height-base;
+
+// === Button font css ===
+$btn-font-family: $font-family;
+$btn-font-size-lg: $font-size-lg;
+$btn-font-size-md: $font-size-base;
+$btn-font-size-sm: $font-size-sm;
+$btn-font-weight: 400;
+
+// === Button text color and background-color ===
+$btn-primary-color: $white;
+$btn-primary-bg: $primary-color;
+
+// === Button border css and shadow css ===
+$btn-border-radius-base: $border-radius-base;
+$btn-border-radius-sm: $border-radius-base;
+$btn-border-with: $border-width-base;
+$btn-shadow: 0 2px 0 rgba(0, 0, 0, 0.015);
+
+// === Button transition ===
+$btn-transition: color .15s $ease-base-in, background-color .15s $ease-in-out;
+
+// === Button type: danger ===
+$btn-danger-color: $white;
+$btn-danger-bg: $error-color;
+$btn-border-border-color: $error-color;
